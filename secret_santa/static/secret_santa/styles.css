@@ -79,12 +79,6 @@ h4 {color: white;
             color: white;
             }
 
-#socialIcons {
-              margin-top: 600px; 
-              text-align: center;
-              margin-bottom: -300px;
-            }
-
 .nav-bar { height: 30px; color: white;}
 .na-bar > li.active > a { color: rgba(225,225,225,0.8); cursor: default; }
 .nav-bar > li.active:hover { background: none; cursor: default; }
