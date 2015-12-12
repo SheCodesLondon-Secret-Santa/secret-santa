@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'secret_santa.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
