@@ -1,7 +1,74 @@
 {% extends 'secret_santa/base.html' %}
 
 {% block content %}
-    <div>
-        This is a test
-    </div>
+  <header>
+
+  <div class="container" id="container">
+
+      <h1>Secret Santa</h1>
+
+      <h2>A global present sharing website</h2>
+
+
+    <div class="row" id="menuBar">
+                    <div class="twelve columns" id="nav">
+                      <ul class="nav-bar right">
+        <li><a href="#sign-up">Sign Up</a></li>
+         </ul>
+      
+                    </div>
+      </div>
+
+   </header>
+
+<div id="about">
+  <p class="aboutext" id="aboutext">A new way to spread christmas cheer. Why keep giving presents local when you can make it global? Just fill in the form below and we will send you an email with information about your secret santa. Someone else will then be assigned to get you a gift.</p>
+</div>
+
+
+  <div class="sign-up" id="sign-up">
+<h4> Sign Up!</h4>
+
+<input type="name" placeholder="Your Name?">
+<br>
+<br>
+<input type="budget" placeholder="Your Budget?">
+<br>
+<br>
+<input type="dislike" placeholder="Name 3 things you like">
+<br>
+<br>
+<input type="dislike" placeholder="Name 3 things you dislike">
+<br>
+<br>
+<input type="address" placeholder="Your Address?">
+<br>
+<br>
+<input type="email" placeholder="Your Email?">
+<br>
+<br>
+<input type="submit">
+<br>
+<br>
+  </div>
+
+
+<script>
+alert("Welcome To Global Secret Santa!") 
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+  </script>
+
+<footer>
+<div class="rows" id="menuBar2">
+                    <div class="twelve columns" id="nav">
+                      <ul class="nav-bar right">
+         <li><a href="#container">Back to Top</a></li>
+         </ul>
+      
+                    </div>
+      </div>
+</footer>
+
 {% endblock content %}
